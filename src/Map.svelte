@@ -5,7 +5,7 @@
     import { copyContextToImage } from "./useful";
     let myDiv = null;
     onMount(() => {
-        d3.json("/a.json").then(function (figure) {
+        d3.json("./a.json").then(function (figure) {
             var trace1 = {
                 x: figure.data[0].x,
                 y: figure.data[0].y,

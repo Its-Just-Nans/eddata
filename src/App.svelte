@@ -39,13 +39,13 @@
     />
     <div>
         {#each types as oneType}
-            <li
+            <button
                 on:click={() => {
                     component = oneType.component;
                 }}
             >
                 {oneType.name}
-            </li>
+            </button>
         {/each}
     </div>
 </main>
