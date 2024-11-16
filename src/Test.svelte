@@ -63,5 +63,5 @@
         });
         navigator.clipboard.write([clipboardItemInput]);
         console.log("success");
-    }}>copy</button
+    }}>copy svg</button
 >
